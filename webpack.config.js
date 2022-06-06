@@ -45,8 +45,8 @@ module.exports = {
     port: 9000,
     proxy: {
       '/api/*': {
-        target: 'http://localhost:8088',
-        // target: 'https://ftx.sacte.sekai.me',
+        // target: 'http://localhost:8088',
+        target: 'https://ftx.sacte.sekai.me',
         changeOrigin: true,
         secure: false,
       },
